@@ -1,0 +1,24 @@
+<html ng-app>
+<head>
+	<title>Demo</title>
+	<script type="text/javascript" src="js/lib/angular.min.js"></script>
+	<script type="text/javascript" src="js/controllers/app.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css">
+</head>
+<body>
+	<div class="container" ng-controller="AppCtrl">
+		<h1>AngulAir</h1>
+		<div class="pull-left span6">
+			<ul>
+				<li ng-repeat="airport in airports">
+					<a href="" ng-click="setAirport(airport.code)">{{airport.code}} - {{airport.city}}</a>
+				</li>
+			</ul>
+
+		</div>
+		<div class="span5" ng-include src="sidebarURL"></div>
+		<ng-include class="span5" src="sidebarURL"></ng-include>
+	</div>
+</body>
+</html>

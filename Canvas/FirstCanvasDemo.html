@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+    <script>
+        window.onload = function () {
+            var canvas = document.getElementById('myCanvas');
+            var ctx = canvas.getContext('2d');
+
+            //rectangle
+            ctx.fillStyle = 'Green';
+            ctx.fillRect(0, 0, 200, 100);
+
+            //circle
+            ctx.arc(100, 200, 50, 0, 2 * Math.PI, false);
+            ctx.fillStyle = 'Navy';
+            ctx.fill();
+
+            //line
+            ctx.beginPath();
+            ctx.moveTo(100, 400);
+            ctx.lineTo(200, 400);
+            ctx.lineWidth = 4;
+            ctx.strokeStyle = 'Red';
+            ctx.stroke();
+        };
+    </script>
+</head>
+<body>
+    <canvas id="myCanvas" height="600" width="800" />
+</body>
+</html>
