@@ -1,0 +1,5 @@
+http://stackoverflow.com/questions/11954152/whats-the-difference-between-console-dir-and-console-log
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/proto
+
+http://www.alsacreations.com/article/lire/1445-dom-queryselector-queryselectorall-selectors-api.html

@@ -1,0 +1,3 @@
+Description du Projet: Charge dybnamiquement des images situées dans un dossier spécifique plus les insert(le script bien sur lol)
+ dans une liste de navigation. 
+C'est tout.
